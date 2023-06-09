@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce website</title>
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome cdn -->
+    <script src="https://kit.fontawesome.com/2688fc3199.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header of this page -->
+    <header>
+        <div class="heads">
+            <div class="hd-top">
+                <div class="logo">
+                    <a href="#">Leoo<span class="spn-1">.</span></a>
+                </div>
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search products..." class="btn-1">
+                </div>
+                <div class="navbar-1">
+                    <button class="o-btn" onclick="opentoggle()"><i class="fas fa-grip-lines"></i></button>
+                    <nav id="mainNav">
+                        <button class="c-btn" onclick="closetoggle()"><i class="fas fa-times"></i></button>
+                        <div class="nav-link">
+                            <ul class="ul">
+                                <li class="li"><a href="#">Offer</a></li>
+                                <li class="li"><a href="#">Shop  <i class="fas fa-angle-down"></i></a>
+                                    <ul class="sub-ul">
+                                        <li class="sub-li"><a href="#">Stock</a></li>
+                                        <li class="sub-li"><a href="#">Group</a></li>
+                                    </ul>
+                                </li>
+                                <li class="li"><a href="#">Pages <i class="fas fa-angle-down"></i></a>
+                                    <ul class="sub-ul">
+                                        <li class="sub-li"><a href="#">About</a></li>
+                                        <li class="sub-li"><a href="#">Contact</a></li>
+                                    </ul>
+                                </li>
+                                <li class="li"><a href="#">Styleguide</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="bx">
+                        <div class="icon-1">
+                            <i class="far fa-user"></i>
+                            <div class="cart">
+                                <button class="btn-2"><i class="fas fa-cart-plus"></i></button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hd-mid">
+                <button class="menu-btn" onclick="opennav()">Menu</button>
+                <div class="navbar-2"> 
+                    <nav id="navic">
+                        <button class="close-btn" onclick="closenav()">close</button>
+                        <ul>
+                            <li><a href="#">Laptop</a></li>
+                            <li><a href="#">Camera</a></li>
+                            <li><a href="#">Mobile & Tablets</a></li>
+                            <li><a href="#">Headphones</a></li>
+                            <li><a href="#">Smartwatches</a></li>
+                            <li><a href="#">Accessories</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="order">
+                    <a href="#">Pre-order Now</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- main container page -->
+    <div class="container">
+        <div class="content">
+            <div class="left">
+                <div class="det">
+                    <h1>Purchase Ultimate Tablets with Pen</h1>
+                    <p>To write, draw, or point with precision when using touchscreen technology. </p>
+                    <a  class="btn-3" href="#">Shop now</a>
+                </div>
+                <div class="fig-1">
+                    <img src="images/ipad.png">
+                </div>
+                
+            </div>
+            <div class="right">
+                <div class="t1">
+                    <img src="images/headphones.png">
+                    <h5>Headphones</h5>
+                    <a class="btn-4" href="#">Explore</a>
+                </div>
+                <div class="b1">
+                    <img src="images/watch.png">
+                    <h5>Smart Watch</h5>
+                    <a class="btn-4" href="#" >Explore</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
