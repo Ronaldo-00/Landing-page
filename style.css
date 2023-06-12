@@ -105,8 +105,7 @@ header{
         display: block;
 }
 .bx{
-    padding: 0 0 0 40px;
-    
+    padding: 0 0 0 40px;  
 }
 .icon-1{
     display: flex;
@@ -243,6 +242,7 @@ header{
     color: #ffffff;
     font-weight: bold;
 }
+/* Media query for the responsive screen */
 @media(max-width:1200px){
     .hd-mid{
         margin-top: 70px;    
